@@ -1,10 +1,3 @@
 # Monorepo Structure
 
-建議 monorepo 結構：
-
-- frontend/
-- mobile/
-- backend/
-- ai/
-- deploy/
-- docs/
+建議包含 frontend、mobile、backend、ai、deploy、docs。

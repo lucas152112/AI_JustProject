@@ -1,2 +1,3 @@
-# Development Workflow
-Developer coding → commit → CI → test → deploy
+# Development Workflows
+
+Developer coding → commit push → CI → test。

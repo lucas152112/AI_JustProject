@@ -1,10 +1,14 @@
 # Module Overview
-- User Management
-- Role Permission
-- Project Management
-- Task Management
-- AI Development
-- Testing
-- Deployment
-- Communication
-- Disaster Recovery
+
+系統主要模組：
+1. 使用者管理
+2. 角色與權限
+3. 專案管理
+4. 任務管理
+5. AI 開發管理
+6. 測試管理
+7. 部署管理
+8. 微服務管理
+9. 通訊與通知
+10. 災難復原管理
+11. 系統設定

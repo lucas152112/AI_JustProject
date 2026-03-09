@@ -1,17 +1,14 @@
 # Communication Architecture
 
-## 目標
-讓專案討論、進度回報、系統通知與 Bot 指令整合於同一通訊協作體系。
-
-## 支援通道
+平台需支援：
 - Telegram
 - Discord
 - LINE
 - fastIM
 
-## 主要功能
-- 討論交流
+用途：
+- 團隊討論
 - 任務通知
 - 進度報告
 - 系統告警
-- AI 任務結果推送
+- Bot 指令互動

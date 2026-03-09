@@ -1,18 +1,13 @@
-# Multi-region Deployment Plan
+# Multi Region Deployment Plan
 
-## 三階段策略
-### 階段 1
-單地部署 + 備份
+規劃分三階段：
 
-### 階段 2
-單主地 + 異地備份 / 異地重建能力
+- Phase 1：Single Region + Backup
+- Phase 2：Primary + DR Site
+- Phase 3：Multi Region Deployment
 
-### 階段 3
-多地部署 + 流量切換 + 資料同步
-
-## 規劃重點
+重點：
 - DNS / 流量切換
-- 設定同步
-- 秘密管理
-- 異地備份保存
-- 切換 / 回切 SOP
+- 備份跨地保存
+- 配置同步
+- 切換與回切流程

@@ -1,8 +1,7 @@
 # Security Architecture
 
-## 重點
-- 身份驗證與授權
-- Secret 管理
-- CI/CD 權限隔離
-- Bot / Webhook 驗證
-- 備份檔與還原權限管理
+安全設計需涵蓋：
+- API 安全
+- 權限與角色
+- Secrets 管理
+- 基礎設施存取控制

@@ -1,13 +1,7 @@
 # Bot Command Design
 
-## 典型指令
-- /report today
-- /deploy status
-- /task list
-- /service health auth-service
-- /test latest
-
-## 原則
-- 指令需權限驗證
-- 回應格式一致
-- 可追蹤操作紀錄
+可透過 IM 指令查詢：
+- 任務狀態
+- 部署狀態
+- 測試結果
+- 服務健康狀態

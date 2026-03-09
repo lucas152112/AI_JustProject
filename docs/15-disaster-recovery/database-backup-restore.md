@@ -1,15 +1,8 @@
-# Database Backup & Restore
+# Database Backup Restore
 
-## 資料來源
-- MySQL
-- MongoDB
-- Redis（依資料性質決定是否納入正式備份）
+初期先完成：
+- MySQL 備份 / 回存
+- MongoDB 備份 / 回存
+- Redis 資料分類策略
 
-## 基本流程
-1. 定時備份
-2. 備份檔保存與輪替
-3. 定期抽樣回存
-4. 產出回存驗證報告
-
-## 原則
-- 有備份不代表可恢復，必須定期驗證回存
+重點不只是有備份檔，而是要有標準回存流程與驗證。

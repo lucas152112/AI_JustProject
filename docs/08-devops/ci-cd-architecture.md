@@ -1,15 +1,11 @@
 # CI/CD Architecture
 
-## 現況
-- 主力 CI/CD：Tekton
-- 開發觸發層：GitHub Actions（規劃導入）
-- 專用 CI/CD Node：包含 package cache
+目前主力：
+- Tekton
 
-## 分層責任
-- GitHub Actions：監聽 repo 事件、觸發 Tekton
-- Tekton：編譯、單元測試、後續延伸整合測試與部署
+預留整合：
+- GitHub Actions
 
-## 原則
-- GitHub Actions 不取代 Tekton
-- 重型工作統一在 Tekton 執行
-- Package cache 為 CI/CD Node 核心能力之一
+角色分工：
+- GitHub Actions：開發觸發層
+- Tekton：實際建置、測試、部署執行層

@@ -1,8 +1,6 @@
 # Version Strategy
 
-## 規則
-採用 `MAJOR.MINOR.PATCH`。
-
-## 建議
-- 文件版號與系統版本可分開維護
-- 架構重大變動時提升 MAJOR / MINOR
+採用 SemVer：
+- MAJOR：重大架構變更
+- MINOR：功能 / 章節新增
+- PATCH：小幅修正

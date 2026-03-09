@@ -1,20 +1,8 @@
-# BFF 架構
+# BFF Architecture
 
-## 定位
-BFF（Backend for Frontend）用於整合前端所需資料、封裝多服務協調與降低客戶端複雜度。
+BFF（Backend for Frontend）作為不同前端入口的聚合層。
 
-## 為何需要 BFF
-- Web / Mobile / Admin 所需資料格式不同
-- 避免前端直接拼接多個微服務
-- 可統一權限、聚合、轉換與快取策略
-
-## 建議 BFF 分類
-- web-bff
-- mobile-bff
-- admin-bff
-
-## 責任
-- API 聚合
-- 權限檢查
-- 回應格式標準化
-- 前端特定流程封裝
+用途：
+- 對 Web 提供聚合 API
+- 對管理後台提供專屬 API
+- 降低前端直接耦合後端微服務

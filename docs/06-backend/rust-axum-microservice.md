@@ -1,13 +1,3 @@
-# Rust + Axum Microservice
+# Rust Axum Microservice
 
-## 原則
-- 每個服務職責單一
-- 服務間透過 API 或事件互動
-- 保留熱更新 / 平滑部署策略
-
-## 建議標準
-- 健康檢查
-- 結構化日誌
-- metrics
-- request id / trace id
-- swagger / OpenAPI 文件
+後端微服務以 Rust + Axum 為主要技術方向，提供高效能與可維護的微服務 API。

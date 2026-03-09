@@ -1,40 +1,22 @@
-# 系統架構
+# System Architecture
 
-## 目標
-定義 ai-just-project 的整體系統邊界、服務責任與互動方式。
+## 核心模組
 
-## 系統分區
-```text
-Frontend Zone
-├─ Web (H5)
-├─ Mobile App
-└─ Admin Backend
+- Frontend（Web / Flutter）
+- Admin Backend
+- API Gateway
+- BFF Layer
+- Microservices
+- Communication Service
+- AI Services
+- CI/CD System
+- Kubernetes Infrastructure
 
-Backend Zone
-├─ API Gateway / Ingress
-├─ BFF
-└─ Backend Microservices
+## 核心原則
 
-AI Zone
-├─ AI Coding Workflow
-├─ AI Bug Fix Workflow
-└─ Model Router / Provider Integration
-
-Ops Zone
-├─ GitHub Actions
-├─ Tekton
-├─ Observability
-└─ Disaster Recovery
-```
-
-## 技術方向
-- Web：Nuxt.js（規劃）
-- Mobile：Flutter（規劃）
-- Backend：Rust + Axum 微服務
-- Data：MySQL、Redis、MongoDB
-- Infra：Kubernetes、Nginx、Tekton
-
-## 核心限制
-- 現有叢集為單地 K8s
-- 需預留未來多地部署能力
-- AI 工具需納入正式流程，不可只靠人工臨時操作
+- 微服務可獨立部署
+- 單元測試作為快速驗證
+- E2E 作為功能完成驗證
+- GitHub Actions 為開發觸發層
+- Tekton 為 CI/CD 執行層
+- Service Registry 支援動態更新

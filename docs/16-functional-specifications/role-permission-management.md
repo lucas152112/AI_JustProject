@@ -1,11 +1,46 @@
 # Role Permission Management
 
-角色範例：
-- Super Admin
-- System Admin
-- PM
-- Backend Developer
-- Frontend Developer
-- Tester
-- DevOps
-- Operator
+版本：v0.5.1
+
+## 模組目標
+統一管理系統角色、專案角色、頁面權限與高風險操作授權。
+
+## 預設角色
+1. Super Admin
+2. System Admin
+3. PM
+4. Backend Developer
+5. Frontend Developer
+6. Tester
+7. DevOps
+8. Operator
+
+## 核心功能
+1. 建立與複製角色
+2. 編輯模組權限、頁面權限、操作權限
+3. 管理專案內角色模板
+4. 檢視權限差異與最近異動
+5. 提供權限快照與審計查詢
+
+## 權限模型
+1. `R`：讀取
+2. `W`：新增/編輯
+3. `X`：執行動作
+4. `A`：管理與授權
+
+## 規則
+1. 頁面權限與 API 權限需同步驗證
+2. 高風險動作可要求二次授權或審批
+3. 角色停用後不可再指派新使用者
+4. 權限異動需產生稽核紀錄與通知
+
+## 例外場景
+1. 權限衝突時以最小授權為預設
+2. 專案角色不可覆蓋系統級限制
+3. 權限模板變更不回溯已封存專案
+
+## 指標建議
+1. 角色數量
+2. 權限異動次數
+3. 高風險操作授權次數
+4. 權限拒絕事件數

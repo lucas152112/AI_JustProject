@@ -1,5 +1,7 @@
 # Monitoring & Logging
 
+版本：v0.5.1
+
 ## 觀測目標
 - API 錯誤率
 - 服務健康狀態

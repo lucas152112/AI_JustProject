@@ -1,3 +1,12 @@
 # API Gateway Design
 
-Gateway 負責 Routing、Authentication、Rate Limit、Service Discovery、Traffic Control、動態路由更新。
+版本：v0.5.1
+
+## 職責
+1. 驗證身份與 JWT
+2. 路由至 BFF 或微服務
+3. 節流、日誌、CORS 與觀測
+
+## 規則
+1. 管理端與前台流量可分域名或路徑
+2. 內部服務不直接暴露外網

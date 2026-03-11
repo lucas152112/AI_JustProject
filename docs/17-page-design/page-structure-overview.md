@@ -1,6 +1,6 @@
 # Page Structure Overview
 
-版本：v0.5
+版本：v0.5.1
 
 ## 設計範圍
 依據 `docs/16-functional-specifications` 的 11 個功能模組，頁面結構分為：
@@ -68,3 +68,9 @@
 2. 區塊配置（Header / Filter / List / Detail / Action）
 3. 關鍵操作（Create / Edit / Delete / Execute）
 4. 成功與失敗回饋（Toast / Inline error / Dialog）
+5. 響應式行為與空狀態
+
+## 文件對應關係
+1. `docs/16-functional-specifications`：定義功能能力與規則
+2. `docs/17-page-design`：定義頁面、欄位、版型、互動
+3. `docs/18-workflow-design`：定義跨模組流程與事件節點

@@ -134,9 +134,13 @@ docs/
 ├─ 15-disaster-recovery
 ├─ 16-functional-specifications
 ├─ 17-page-design
-└─ 18-workflow-design
+├─ 18-workflow-design
+└─ 19-implementation-plan
 ```
 
 ## 7. 版本
 
+- v0.6.0：開始 MVP 實作清單，新增模組優先級、技術交付物與 backlog 拆解
+- v0.5.1：補齊 overview、product、architecture、data、devops、security、operations、functional spec、page design 與 workflow design 文件
+- v0.5.0：擴充頁面設計文件，補齊後台與前台頁面規格
 - v0.2.1：全量文件更新，重新整理架構、功能規格、頁面設計與工作流程

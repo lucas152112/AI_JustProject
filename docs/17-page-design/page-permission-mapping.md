@@ -1,6 +1,6 @@
 # Page Permission Mapping
 
-版本：v0.5
+版本：v0.5.1
 
 ## 角色定義
 1. Super Admin
@@ -47,6 +47,14 @@
 1. `/projects`、`/tasks`：所有專案成員可讀，寫入依專案角色
 2. `/ai-workbench`：PM/Dev/Tester 可用，Operator 預設只讀
 3. `/deployments` 前台頁：預設只讀，僅 DevOps/Operator 可執行操作
+4. `/reports/my`：個人可讀，跨專案彙總資料需依專案成員權限聚合
+5. `/notifications`：僅可讀取本人通知，不可跨帳號查詢
+
+## 權限實作分層
+1. 路由層：控制是否可進頁
+2. 元件層：控制是否顯示按鈕、欄位、批次操作
+3. API 層：最終驗證資源與動作
+4. 稽核層：記錄拒絕與成功的高風險操作
 
 ## 實作建議
 1. 前端使用路由守衛（Route Guard）控制頁面進入

@@ -1,3 +1,12 @@
 # AI Bug Fix System
 
-失敗報告交給 Aider，透過 OpenRouter 使用 DeepSeek Coder V3.2 或 Qwen3 Coder 32B 進行修正。
+版本：v0.5.1
+
+## 目標
+當測試或線上事件失敗時，自動整理上下文並提供修復 patch 候選。
+
+## 流程
+1. 接收失敗事件
+2. 收集 log、trace、相關 commit
+3. 產生修補建議與回歸測試建議
+4. 交由開發者審核採納

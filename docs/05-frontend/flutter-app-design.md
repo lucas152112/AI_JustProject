@@ -1,3 +1,12 @@
 # Flutter App Design
 
-行動端採 Flutter，透過標準 API 或 WebSocket / SSE 整合。
+版本：v0.5.1
+
+## 定位
+Flutter App 作為未來行動端延伸，優先覆蓋通知、任務更新與部署觀察。
+
+## 核心頁面
+1. 我的待辦
+2. 通知中心
+3. 任務詳情
+4. 部署摘要

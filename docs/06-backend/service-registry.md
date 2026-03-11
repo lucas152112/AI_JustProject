@@ -1,3 +1,11 @@
 # Service Registry
 
-負責服務註冊、發現、健康檢查、版本管理，是微服務動態上下架與獨立更新的核心。
+版本：v0.5.1
+
+## 目標
+維護服務清單、版本、健康狀態與路由資訊。
+
+## 欄位
+1. service name / version / endpoint
+2. owner / environment / status
+3. health check / last deploy time

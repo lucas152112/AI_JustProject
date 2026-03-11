@@ -1,3 +1,17 @@
 # Auto Dev Agent Architecture
 
-AI Dev Platform 包含 Coding Agent、CI Agent、Test Agent、Bug Fix Agent，可後續擴充 Architect / DevOps / Refactor Agent。
+版本：v0.5.1
+
+## 目標
+以自動代理完成上下文整理、 patch 建議、測試重跑與結果回報。
+
+## Agent 能力
+1. 收集任務、程式碼、測試失敗上下文
+2. 產出修補方案與風險摘要
+3. 觸發指定測試與回寫報告
+4. 記錄採納率與效果
+
+## 控制原則
+1. 不直接繞過人工審查
+2. 高風險 patch 必須經 reviewer 確認
+3. Agent 行為需可審計

@@ -1,6 +1,6 @@
 # Form Design Guidelines
 
-版本：v0.5
+版本：v0.5.1
 
 ## 基本原則
 1. 表單需包含輸入驗證、欄位說明、錯誤提示
@@ -51,3 +51,8 @@
 1. 建立類：Project Create、Task Create、User Create
 2. 編輯類：Project Edit、Role Edit、Settings Edit
 3. 執行類：Deploy Release、Rollback、Restore Backup
+
+## 多步驟表單規範
+1. 僅在欄位超過 10 個或存在審批/摘要步驟時使用 Stepper
+2. 每一步需可返回，但高風險執行步驟不可跳過驗證
+3. 最終一步需顯示摘要、差異與影響範圍

@@ -1,0 +1,14 @@
+{
+  "name": "@ai-just/workspace",
+  "version": "0.6.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node src/index.js",
+    "build": "node -e \"console.log('workspace build placeholder')\"",
+    "lint": "node -e \"console.log('workspace lint placeholder')\"",
+    "test": "node -e \"console.log('workspace test placeholder')\"",
+    "typecheck": "node -e \"console.log('workspace typecheck placeholder')\""
+  }
+}
+

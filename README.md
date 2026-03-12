@@ -140,6 +140,7 @@ docs/
 
 ## 7. 版本
 
+- v0.6.1：建立 monorepo workspace、apps/services/packages skeleton，補齊 MVP 頁面檢查與執行任務拆解文件
 - v0.6.0：開始 MVP 實作清單，新增模組優先級、技術交付物與 backlog 拆解
 - v0.5.1：補齊 overview、product、architecture、data、devops、security、operations、functional spec、page design 與 workflow design 文件
 - v0.5.0：擴充頁面設計文件，補齊後台與前台頁面規格

@@ -1,0 +1,14 @@
+{
+  "name": "@ai-just/bff",
+  "version": "0.6.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node src/index.js",
+    "build": "node -e \"console.log('bff build placeholder')\"",
+    "lint": "node -e \"console.log('bff lint placeholder')\"",
+    "test": "node -e \"console.log('bff test placeholder')\"",
+    "typecheck": "node -e \"console.log('bff typecheck placeholder')\""
+  }
+}
+

@@ -1,0 +1,14 @@
+{
+  "name": "@ai-just/task",
+  "version": "0.6.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node src/index.js",
+    "build": "node -e \"console.log('task build placeholder')\"",
+    "lint": "node -e \"console.log('task lint placeholder')\"",
+    "test": "node --test src/index.test.js",
+    "typecheck": "node -e \"console.log('task typecheck placeholder')\""
+  }
+}
+

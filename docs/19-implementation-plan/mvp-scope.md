@@ -1,6 +1,6 @@
 # MVP Scope
 
-版本：v0.6.0
+版本：v0.6.1
 
 ## 目標
 將 `v0.5.1` 的完整規劃收斂為第一階段可落地的 MVP，優先打通「專案 -> 任務 -> 測試 -> 部署觀測」主鏈路。
@@ -10,6 +10,13 @@
 2. 優先實作高頻頁面與核心 API
 3. 優先建立可擴充的 repo、schema、auth、CI 骨架
 4. AI、通知、報表先做最小可用版，再逐步擴充
+5. 開發前先完成頁面與操作流程總檢，再進入工程任務拆解
+
+## 開發順序
+1. 先依 [mvp-page-priority-list.md](/home/jackson/AI_JustProject/docs/19-implementation-plan/mvp-page-priority-list.md) 確認 MVP 必做頁面與延後頁面
+2. 逐條走查核心操作流程與頁面跳轉
+3. 確認權限、例外狀態、通知節點與資料來源
+4. 頁面定案後再拆 API、schema、前後端開發任務
 
 ## 必做範圍
 1. 身份驗證與基本 RBAC

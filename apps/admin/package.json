@@ -1,0 +1,14 @@
+{
+  "name": "@ai-just/admin",
+  "version": "0.6.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node src/index.js",
+    "build": "node -e \"console.log('admin build placeholder')\"",
+    "lint": "node -e \"console.log('admin lint placeholder')\"",
+    "test": "node -e \"console.log('admin test placeholder')\"",
+    "typecheck": "node -e \"console.log('admin typecheck placeholder')\""
+  }
+}
+

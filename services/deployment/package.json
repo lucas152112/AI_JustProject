@@ -1,0 +1,14 @@
+{
+  "name": "@ai-just/deployment",
+  "version": "0.6.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node src/index.js",
+    "build": "node -e \"console.log('deployment build placeholder')\"",
+    "lint": "node -e \"console.log('deployment lint placeholder')\"",
+    "test": "node --test src/index.test.js",
+    "typecheck": "node -e \"console.log('deployment typecheck placeholder')\""
+  }
+}
+
